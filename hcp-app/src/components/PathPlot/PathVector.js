@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 function PathVector() {
     return ( 
         <div>
-            <span>hi</span>
+            <span>PATHVECTOR</span>
         </div>
      );
 }

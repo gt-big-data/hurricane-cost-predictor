@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 function Legend() {
     return ( 
         <div>
-            <span>hi</span>
+            <span>LEGEND</span>
         </div>
      );
 }
