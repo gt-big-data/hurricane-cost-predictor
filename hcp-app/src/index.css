@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.NumberCard{
+  background-color: #ECECEC;
+  max-width: 400px;
+  text-align: left;
+  font-size: 25px;
+  border-radius: 7px;
+  margin: 600px 20px 20px;
+  height: 350px;
+  padding-left: 5px;
+
+}
+.Numbers{
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 20px;
+  margin: 20px;
+  
+}
+#carsBlocked{
+  text-align: center;
+  margin-top: 0px;
+}
+#traffic{
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+  }
+#economicCost{
+  padding: 7px 0px;
+
+}
+.traffic{
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+}
+
