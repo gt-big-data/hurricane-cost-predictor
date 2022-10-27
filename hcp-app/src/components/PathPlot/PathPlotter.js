@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import Map from './Map';
+import Map from './maps/Map';
 import Legend from './Legend'
 import PathVector from './PathVector'
 import PlotCircle from './PlotCircle'
@@ -8,6 +8,7 @@ function PathPlotter() {
     <div>
         <span>2. Plot Path</span>
         <Map/>
+        
         <Legend/>
         <PathVector/>
         <PlotCircle/>

@@ -1,11 +1,11 @@
 import React, { PureComponent } from 'react';
-
+import GeographyLine from './GeographyLine';
 function Map() {
-    return ( 
+    return (
         <div>
-            <span>hi</span>
+            <GeographyLine />
         </div>
-     );
+    );
 }
 
 export default Map;

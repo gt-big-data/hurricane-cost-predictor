@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+/* used for latitude and longitude */
+
+
+.vl { 
+  border-left: 1px solid #aaa;
+  height: inherit;
+  position: absolute;
+  z-index: 1;
+  top: auto;
+}
+.geography{
+  border: 3px solid pink;
+  width: 50%;
+  height: 400px;
+  display: inline-flex;
+  left: 50%;
+}
+.chl {
+  position: absolute;
+  width: -webkit-fill-available;
+  z-index: 1;
+  border: solid 1px #aaa;
+ border-color: transparent transparent #aaa transparent;
+ border-radius: 50%;
+}
+/* set of curved horizontal lines */
+#hrlines{ 
+  border: 1px solid blue;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  overflow:hidden
+}
