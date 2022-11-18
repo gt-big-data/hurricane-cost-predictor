@@ -24,8 +24,8 @@ function GeographyLine() {
         </div>
       </div>
 
-      {/* longitudes  */}
-      <longitudes style={{height:'inherit'}}>
+      longitudes 
+      <longitudes id="vrlines">
         <div class="vl" style={{ left: '35%', transform: 'rotate(15deg)' }}></div>
         <div class="vl" style={{ left: '41%', transform: 'rotate(8deg)' }}></div>
         <div class="vl" style={{ left: '47.5%', transform: 'rotate(3deg)' }}></div>
@@ -34,27 +34,28 @@ function GeographyLine() {
         <div class="vl" style={{ left: '66%', transform: 'rotate(-16deg)' }}></div>
       </longitudes>
       {/* longitudes values */}
-      <div style={{ textAlign:'left', width:'inherit', marginTop: '380px', position: 'absolute' }}>
-        <span style={{position:'relative', marginLeft: '8%'}}>
+      <div style={{ textAlign: 'left', width: 'inherit', marginTop: '380px', position: 'absolute' }}>
+        <span style={{ position: 'relative', marginLeft: '8%' }}>
           120ºN
         </span>
-        <span style={{position:'relative', marginLeft: '12%'}}>
+        <span style={{ position: 'relative', marginLeft: '12%' }}>
           110ºN
         </span>
-        <span style={{position:'relative', marginLeft: '10%'}}>
+        <span style={{ position: 'relative', marginLeft: '10%' }}>
           100ºN
         </span>
-        <span style={{position:'relative', marginLeft: '10%'}}>
+        <span style={{ position: 'relative', marginLeft: '10%' }}>
           90ºN
         </span>
-        <span style={{position:'relative', marginLeft: '12%'}}>
+        <span style={{ position: 'relative', marginLeft: '12%' }}>
           80ºN
         </span>
-        <span style={{position:'relative', marginLeft: '8%'}}>
+        <span style={{ position: 'relative', marginLeft: '8%' }}>
           70ºN
         </span>
 
       </div>
+
     </div>
   );
 }

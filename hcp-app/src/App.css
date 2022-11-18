@@ -47,6 +47,10 @@
   z-index: 1;
   top: auto;
 }
+#vrlines{
+  height:inherit;
+  z-index: -1;
+}
 .geography{
   border: 3px solid pink;
   width: 50%;
@@ -57,7 +61,7 @@
 .chl {
   position: absolute;
   width: -webkit-fill-available;
-  z-index: 1;
+  /* z-index: 1; */
   border: solid 1px #aaa;
  border-color: transparent transparent #aaa transparent;
  border-radius: 50%;
@@ -68,5 +72,27 @@
   height: inherit;
   width: inherit;
   position: absolute;
-  overflow:hidden
+  overflow:hidden;
+  z-index: -1;
+}
+/* draggable thing */
+#legend {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+#legendheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #282c34;
+  color: #fff;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
