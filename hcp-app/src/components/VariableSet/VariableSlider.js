@@ -1,7 +1,11 @@
 import React, { PureComponent } from 'react';
 
-function Variable() {
-    return ( <div></div> );
+function VariableSlider() {
+    return ( 
+    <div>
+        <slider></slider>
+    </div>
+    );
 }
 
-export default Variable;
+export default VariableSlider;

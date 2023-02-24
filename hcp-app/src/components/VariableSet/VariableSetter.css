@@ -1,0 +1,46 @@
+.VariableName {
+    text-align: left;
+    padding-left: 30px;
+    font-size: larger;
+    font-size: 30px;
+}
+
+#hurricaneCategory {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 500px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: inherit;
+    outline: none;
+    background: linear-gradient(to top, #f9f9f9, rgb(204, 219, 228));
+}
+
+input {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 800px;
+    background: grey;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(204, 219, 228), white);
+}
+
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    height:20px;
+    background-color: #164D6D;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#initialValue {
+    font-size: 30px;
+}
+.title {
+    font-size: 30px;
+}
