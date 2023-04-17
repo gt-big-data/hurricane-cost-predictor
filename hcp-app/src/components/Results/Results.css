@@ -1,0 +1,144 @@
+/* Number Card */
+.NumberCard{
+    background-color: #ECECEC;
+    max-width: 600px;
+    text-align: left;
+    font-size: 25px;
+    border-radius: 7px;
+    margin: 50px 20px 20px;
+    width: 400px;
+    height: 375px;
+    padding-left: 5px;
+  
+  }
+  .Numbers{
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: 20px;
+    
+  }
+  .percentage {
+    text-align: center;
+    font-size: 40px;
+  }
+  #carsBlocked{
+    text-align: center;
+    margin-top: 0px;
+  }
+  #traffic{
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    }
+  #economicCost{
+    padding: 7px 0px;
+  
+  }
+  .traffic{
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+  }
+  
+  /*DropDown CSS*/
+  .clicker {
+    display: inline-block;
+    width: 140px;
+    border-top: 1px solid;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding-left: 5px;
+    margin-left: 0px;
+    padding: 0px 25px 0px 0px;
+  }
+  .clicker-cost {
+    width: 190px;
+  }
+  .triangle {
+    background-color: lightgray;
+    border: 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px 4px 0px 2px;
+  }
+  .dropdown :hover {
+    cursor: pointer;
+  }
+  .dropDown {
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 7px;
+    max-height: 75px;
+    overflow-y: auto;
+    width: 160px;
+    margin-top: 10px;
+  }
+  .cost-dropdown {
+    width: 207px;
+  }
+  .checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    border: 1.5px solid;
+  }
+  .divider {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin: 0;
+    width: 100%;
+  }
+  .checkbox-round:checked {
+    background-color: dimgray;
+  }
+  .state {
+    text-align: left;
+  }
+  .cost {
+    text-align: left;
+  }
+  
+  /* transition */
+  .transition {
+  margin: 300px 0px;
+  }
+  
+  
+  /*Calculate button */
+  .btn {
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #D8D8D8;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  label {
+    margin:0px;
+  }
+  
+  .piechart {
+    margin: 0px;
+  }
+  /* */
+  .results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .results-container2 {
+    margin-left: 325px;
+  }
